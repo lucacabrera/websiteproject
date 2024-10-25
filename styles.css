@@ -382,3 +382,8 @@ hr.dashed {
   font-size: 14px;
   border-top: 1px solid #476faa;
 }
+
+.testimonial-img {
+  border: 2px solid black;
+  border-radius: 50%;
+}
