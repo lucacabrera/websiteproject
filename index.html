@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <img class="logo" src="assets/tennislogo.jpg" alt="Logo" />
+      <ul class="taskbar">
+        <li class="taskbaritem">Home</li>
+        <li class="taskbaritem">About Us</li>
+        <li class="taskbaritem">Booking</li>
+        <li class="taskbaritem">Information</li>
+        <li class="taskbaritem">Contact</li>
+      </ul>
+      <div class="buttons">
+        <button class="loginbtn">Login</button>
+        <button class="signupbtn">Sign-Up</button>
+      </div>
+    </div>
+
+    <!-- Panel 1 -->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h2>Where champions are made</h2>
+        <h1>Welcome to Bagshot Tennis</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique.
+        </p>
+        <button class="learn-more-btn">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Panel 2 -->
+    <div class="panel2">
+      <div class="random">What we offer</div>
+      <div>
+        <ul class="imagelayout">
+          <li>
+            <div class="img-container">
+              <img src="/assets/add.png" alt="" />
+              <div class="subtexttitle">Register for Membership</div>
+              <div class="subtext">
+                For those interested in joining as a full adult member, Adult
+                Beginner/Improver or Adult/Junior coaching only.
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="img-container">
+              <img src="/assets/tennis-ball.png" alt="" />
+              <div class="subtexttitle">Junior Tennis and Camps</div>
+              <div class="subtext">
+                For those interested in Junior (Under 18s) Termly Tennis OR
+                Junior Holiday Camps.
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="img-container">
+              <img src="/assets/tennis-player-with-racket.png" alt="" />
+              <div class="subtexttitle">Register for Adult Non-Members</div>
+              <div class="subtext">
+                For Adult non-members interested in attending Pay-As-You-Go
+                Improver/Beginnner drills OR the 4 week beginner course.
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="img-container">
+              <img src="/assets/multiple-users-silhouette.png" alt="" />
+              <div class="subtexttitle">Register for Adult Pay and Play</div>
+              <div class="subtext">
+                For those interested in Pay and Play Guest passes (£10 for
+                90mins), for tennis or pickleball.
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="weather">
+      <!-- This from a weather widgit website i didnt code this -->
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/en/51d36n0d70/bagshot/"
+        data-label_1="BAGSHOT"
+        data-label_2="WEATHER"
+        data-font="Roboto"
+        data-icons="Climacons Animated"
+        data-theme="pure"
+        >BAGSHOT WEATHER</a
+      >
+      <script>
+        !(function (d, s, id) {
+          var js,
+            fjs = d.getElementsByTagName(s)[0];
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://weatherwidget.io/js/widget.min.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        })(document, "script", "weatherwidget-io-js");
+      </script>
+    </div>
+
+    <!-- Panel 3-->
+    <div class="panel3">
+      <h2 class="panel3-title">What Our Members Say</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img
+            src="assets/member1.jpg"
+            alt="Member 1"
+            class="testimonial-img"
+          />
+          <p class="testimonial-text">
+            "Joining Bagshot Tennis has been the best decision! The community is
+            friendly, and the coaching is top-notch."
+          </p>
+          <p class="testimonial-author">- Sarah K.</p>
+        </div>
+
+        <div class="testimonial">
+          <img
+            src="assets/member2.jpg"
+            alt="Member 2"
+            class="testimonial-img"
+          />
+          <p class="testimonial-text">
+            "Great facilities and excellent training programmes. My tennis
+            skills have improved significantly."
+          </p>
+          <p class="testimonial-author">- James T.</p>
+        </div>
+
+        <div class="testimonial">
+          <img
+            src="assets/member3.jpg"
+            alt="Member 3"
+            class="testimonial-img"
+          />
+          <p class="testimonial-text">
+            "The junior camps are fantastic! My kids love coming here, and
+            they've learned so much while having fun."
+          </p>
+          <p class="testimonial-author">- Emma P.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 4 -->
+    <div class="panel4">
+      <div class="video-container">
+        <video controls>
+          <source src="assets/your-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="options-container">
+        <div class="option">
+          <img src="assets/info-button (1).png" alt="About Us" />
+          <div class="option-title">About Us</div>
+          <div class="option-text">
+            Learn more about Bagshot Tennis and our mission to help you improve
+            your game in a friendly community.
+          </div>
+        </div>
+
+        <div class="option">
+          <img src="assets/phone (1).png" alt="Contact Us" />
+          <div class="option-title">Contact Us</div>
+          <div class="option-text">
+            Get in touch with us for more information on memberships, coaching,
+            or events.
+          </div>
+        </div>
+
+        <div class="option">
+          <img src="assets/calendar (1).png" alt="Events and Noticeboard" />
+          <div class="option-title">Events & Noticeboard</div>
+          <div class="option-text">
+            Stay updated with the latest events, news, and announcements from
+            Bagshot Tennis.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>Bagshot Tennis</h3>
+          <p>
+            Bagshot Tennis is dedicated to providing the best tennis experience
+            for players of all skill levels. Join our community and improve your
+            game today!
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h4>Contact Us</h4>
+          <p>Email: info@bagshottennis.com</p>
+          <p>Phone: 01234 567 890</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2024 Bagshot Tennis | All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>

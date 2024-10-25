@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+  padding: 15px;
+  padding-left: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  list-style-type: none;
+  gap: 100px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.taskbaritem:hover {
+  color: #476faa;
+  transform: scale(1.05);
+  cursor: pointer;
+  text-shadow: 0 0 1px #476faa, 0 0 1px #476faa;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+  padding-right: 100px;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.loginbtn {
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.loginbtn:hover {
+  color: #476faa;
+  transform: scale(1.05);
+  cursor: pointer;
+  text-shadow: 0 0 1px #476faa, 0 0 1px #476faa;
+}
+
+.signupbtn {
+  border: 3px solid black;
+  border-radius: 5px;
+  background: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.signupbtn:hover {
+  color: white;
+  border: 3px solid #476faa;
+  border-radius: 5px;
+  background-color: #476faa;
+}
+
+.hero-image {
+  position: relative;
+  background-image: url("/assets/backgroundimage.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-text {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  color: white;
+  text-align: right;
+}
+
+.hero-text h1 {
+  font-size: 72px;
+  margin: 10px 0 0;
+}
+
+.hero-text h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.learn-more-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #476faa;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.learn-more-btn:hover {
+  background-color: #365b8a;
+}
+
+.block-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.random {
+  font-size: 36px;
+  font-weight: 900;
+  color: #476faa;
+  padding-top: 48px;
+  text-align: center;
+  width: 100%;
+}
+
+.imagelayout {
+  display: flex;
+  gap: 48px;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container:hover {
+  cursor: pointer;
+}
+
+.imagelayout img {
+  border-radius: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100px;
+  height: 100px;
+  transition: transform 300ms ease-in;
+}
+
+.imagelayout img:hover {
+  transform: scale(1.2);
+}
+
+.imagelayout div {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.subtexttitle {
+  font-weight: bold;
+}
+
+.subtext {
+  font-style: italic;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.weatherwidget-io {
+  width: 1000px;
+  border: 2px solid #476faa;
+}
+
+hr.dashed {
+  border-top: 3px dashed black;
+}
+
+.panel3 {
+  background-color: #f4f4f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.panel3-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #476faa;
+  margin-bottom: 40px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.testimonial {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 300px;
+  transition: transform 300ms ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  color: #476faa;
+}
+
+.panel4 {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-color: #f4f4f9;
+}
+
+.video-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container video {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.options-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.option {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  transition: transform 300ms ease-in;
+}
+
+.option:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.option img {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+}
+
+.option-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #476faa;
+  padding-right: 5px;
+}
+
+.option-text {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 2px solid #476faa;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #476faa;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #476faa;
+}
+
+.footer-bottom {
+  padding: 10px;
+  font-size: 14px;
+  border-top: 1px solid #476faa;
+}
