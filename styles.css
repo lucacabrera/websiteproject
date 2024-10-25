@@ -81,7 +81,7 @@ ul {
 
 .hero-image {
   position: relative;
-  background-image: url("/assets/backgroundimage.jpg");
+  background-image: url("assets/backgroundimage.jpg");
   height: 700px;
   background-size: cover;
   background-position: center;
